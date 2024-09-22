@@ -7,8 +7,8 @@ const TravelNews = () => {
   return (
 
     <div className="flex flex-col gap-4">
-      <p className="font-UrbanistLight tracking-wide">Stay updated with recent travel news from around the world.</p>
-      <Link href="https://tourism.gov.in/" target="_blank" className="max-w-min"><Button variant="outline" className="max-w-min">Lastest News</Button></Link>
+      <p className="font-UrbanistLight tracking-wide">Credit Samdhan enhances financial inclusion through tailored microfinance solutions. We support small businesses, especially women entrepreneurs, and promote sustainable banking practices. Our mission is to provide accessible financial services that foster economic growth and community upliftment.</p>
+      <Link href="/" target="_blank" className="max-w-min"><Button variant="outline" className="max-w-min">Lastest News</Button></Link>
       </div>
 
   )

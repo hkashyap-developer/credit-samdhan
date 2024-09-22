@@ -61,8 +61,35 @@ export default function NavigationMenuDemo() {
     <NavigationMenu>
       <NavigationMenuList className="flex gap-0 xl:gap-8 flex-row">
        
+
+
+
+      <NavigationMenuItem>
+          <Link href="/" legacyBehavior passHref>
+            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+              <p className="uppercase tracking-wider">
+                Home
+              </p>
+            </NavigationMenuLink>
+          </Link>
+        </NavigationMenuItem>
+
+
         <NavigationMenuItem>
-          <NavigationMenuTrigger className="uppercase tracking-wider">Destinations</NavigationMenuTrigger>
+          <Link href="/about" legacyBehavior passHref>
+            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+              <p className="uppercase tracking-wider">
+                About
+              </p>
+            </NavigationMenuLink>
+          </Link>
+        </NavigationMenuItem>
+
+
+
+
+        <NavigationMenuItem>
+          <NavigationMenuTrigger className="uppercase tracking-wider">Services</NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className=" grid w-[400px] gap-3 p-4 md:w-[330px] md:grid-cols-1 lg:w-[330px] ">
               {locations.map((location) => (
@@ -80,42 +107,19 @@ export default function NavigationMenuDemo() {
 
 
         <NavigationMenuItem>
-          <NavigationMenuTrigger className="uppercase tracking-wider">Offerings</NavigationMenuTrigger>
-          <NavigationMenuContent>
-            <ul className=" grid w-[400px] gap-3 p-4 md:w-[330px] md:grid-cols-1 lg:w-[330px] ">
-              {experiences.map((location) => (
-                <ListItem
-                  key={location.title}
-                  title={location.title}
-                >
-                  {location.description}
-                </ListItem>
-              ))}
-            </ul>
-          </NavigationMenuContent>
-        </NavigationMenuItem>
-
-
-        <NavigationMenuItem>
-          <Link href="/blog" legacyBehavior passHref>
-            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              <p className="uppercase tracking-wider">
-                Blog
-              </p>
-            </NavigationMenuLink>
-          </Link>
-        </NavigationMenuItem>
-
-
-        <NavigationMenuItem>
           <Link href="/contact" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               <p className="uppercase tracking-wider">
-                Contact us
+                Contact
               </p>
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
+
+
+
+
+
 
 
 
