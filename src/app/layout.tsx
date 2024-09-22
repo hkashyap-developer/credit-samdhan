@@ -84,7 +84,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${myFont.variable} ${dancingScript.variable} ${SedgwickAve.variable} ${BethEllen.variable} ${EduVICWANTBeginner.variable} ${UrbanistLight.variable} scroll-smooth`}>
+    <html lang="en" className={`max-w-[1920px] mx-auto w-full ${myFont.variable} ${dancingScript.variable} ${SedgwickAve.variable} ${BethEllen.variable} ${EduVICWANTBeginner.variable} ${UrbanistLight.variable} scroll-smooth`}>
 
       <body className={inter.className}>
       <Header/>

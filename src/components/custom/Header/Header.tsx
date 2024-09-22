@@ -17,7 +17,7 @@ import { Button } from '@/components/ui/button';
 import MobileNavigation from './MobileNavigation';
 const Header = () => {
   return (
-    <div className=" border-t-[10px] border-slate-400 fixed top-0 z-50 w-full bg-white min-h-[80px]">
+    <div className="max-w-[1920px] border-t-[10px] border-slate-400 fixed top-0 z-50 w-full bg-white min-h-[80px]">
     <div className="flex flex-row align-middle justify-between px-2 sm:px-6 py-2">
  
     <Link href="/" className="xl:min-w-[200px] flex flex-col align-start justify-center">

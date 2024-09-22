@@ -1278,6 +1278,12 @@ video {
 .max-w-\[170px\] {
   max-width: 170px;
 }
+.max-w-\[2200px\] {
+  max-width: 2200px;
+}
+.max-w-\[1920px\] {
+  max-width: 1920px;
+}
 .flex-1 {
   flex: 1 1 0%;
 }
@@ -2394,6 +2400,9 @@ video {
 }
 .\[text-shadow\:_8_8px_8px_rgba\(0_0_0_\/_1\)\] {
   text-shadow: 8 8px 8px rgba(0 0 0 / 1);
+}
+.\[text-shadow\:_8px_8px_8px_rgba\(0_0_0_\/_0\.4\)\] {
+  text-shadow: 8px 8px 8px rgba(0 0 0 / 0.4);
 }
 
 

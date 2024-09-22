@@ -9,6 +9,7 @@ import DestinationsCards from "@/components/custom/Content/DestinationsCards/Des
 import Testimonials from '@/components/custom/Testimonials/Testimonials'
 import HeroSlickSlider from '@/components/custom/Global/HeroHomeSlider/HeroHomeSlider'
 import ItinerarySlider from '@/app/destinations/[slug]/ItinerarySlider'
+import CleanTestmnlSlickSlider from "@/components/custom/Global/CleanTestmnlSlickSlider/CleanTestmnlSlickSlider";
 
 export default async function Home() {
 
@@ -84,14 +85,13 @@ export default async function Home() {
 
 
 
-
-
-
-
-
         <div className="mt-2 md:mt-12 w-full">  
-          <Testimonials/>
+          <CleanTestmnlSlickSlider/>
         </div>
+
+
+
+
 
     </main>
   );

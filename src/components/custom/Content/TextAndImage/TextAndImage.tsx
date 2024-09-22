@@ -12,7 +12,7 @@ const TextAndImage = (props:any) => {
         <div className="flex gap-2 md:gap-16 flex-col justify-between w-full xl:flex-row p-4 pb-2 pt-0">
         {
           ((props.imagePostion) === "left") &&
-              <TextAndImageImage imageLink={props.imageLink}/>
+              <TextAndImageImage imageLink={props.imageLink} imagePostion={props.imagePostion}/>
         }    
         
         <TextAndImageText 
