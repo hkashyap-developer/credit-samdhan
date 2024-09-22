@@ -1138,6 +1138,12 @@ video {
 .min-h-\[94vh\] {
   min-height: 94vh;
 }
+.min-h-40 {
+  min-height: 10rem;
+}
+.min-h-80 {
+  min-height: 20rem;
+}
 .w-10 {
   width: 2.5rem;
 }
@@ -4000,6 +4006,10 @@ img[btnvisibility="hidden"] {
 
   .md\:max-w-\[100px\] {
     max-width: 100px;
+  }
+
+  .md\:max-w-\[80px\] {
+    max-width: 80px;
   }
 
   .md\:basis-1\/2 {
