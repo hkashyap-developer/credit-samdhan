@@ -19,16 +19,27 @@ import {
 const locations: { title: string; href: string; description: string }[] = [
  
   {
-    title: "Punjab",
+    title: "Loan Consulting",
     href: "",
     description: "",
   },
   {
-    title: "Uttarakhand",
+    title: "Membership Cards",
     href: "",
     description:
       "",
   },
+  {
+    title: "Credit Building Subscription",
+    href: "",
+    description: "",
+  },
+  {
+    title: "Channel Partners",
+    href: "",
+    description:
+      "",
+  }
 ]
 
 

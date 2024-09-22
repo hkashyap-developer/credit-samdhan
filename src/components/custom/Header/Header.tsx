@@ -59,9 +59,9 @@ const Header = () => {
   </SheetTrigger>
   <SheetContent className="overflow-y-scroll">
     <SheetHeader className="mb-8">
-      <SheetTitle className="text-left mt-4">Gerenos Getaways</SheetTitle>
+      <SheetTitle className="text-left mt-4">Credit Samdhan</SheetTitle>
       <SheetDescription className="text-left mb-8">
-      Immersing you in the rich culture and breathtaking landscapes of Punjab and Uttarakhand.
+      We are dedicated microfinance institution empowering small businesses and promoting financial inclusion for all.
       </SheetDescription>
 
     </SheetHeader>
