@@ -2561,16 +2561,6 @@ eval("\nObject.defineProperty(exports, \"__esModule\", ({\n    value: true\n}));
 
 /***/ }),
 
-/***/ "(rsc)/./node_modules/next/Image.js":
-/*!************************************!*\
-  !*** ./node_modules/next/Image.js ***!
-  \************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__(/*! ./dist/shared/lib/image-external */ \"(rsc)/./node_modules/next/dist/shared/lib/image-external.js\")\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9ub2RlX21vZHVsZXMvbmV4dC9JbWFnZS5qcyIsIm1hcHBpbmdzIjoiQUFBQSwySUFBNEQiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9kZW1vLXdlYnNpdGUvLi9ub2RlX21vZHVsZXMvbmV4dC9JbWFnZS5qcz8zZTE5Il0sInNvdXJjZXNDb250ZW50IjpbIm1vZHVsZS5leHBvcnRzID0gcmVxdWlyZSgnLi9kaXN0L3NoYXJlZC9saWIvaW1hZ2UtZXh0ZXJuYWwnKVxuIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(rsc)/./node_modules/next/Image.js\n");
-
-/***/ }),
-
 /***/ "(rsc)/./node_modules/next/dist/api/image.js":
 /*!*********************************************!*\
   !*** ./node_modules/next/dist/api/image.js ***!
