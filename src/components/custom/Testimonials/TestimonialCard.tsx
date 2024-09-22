@@ -9,11 +9,11 @@ import Image from 'next/image'
 
 export default function Component(props:any) {
   return (
-    <Card className="border-none shadow-none w-full grid gap-6 bg-[#246BEB]">
+    <Card className="border-none shadow-none w-full grid gap-6">
 
       <blockquote className="text-md leading-relaxed md:text-md">
      
-    <div className="text-white max-w-min testContCstCls font-UrbanistLight tracking-wide text-md sm:text-base"
+    <div className="text-slate-800 max-w-min testContCstCls font-UrbanistLight tracking-wide text-md sm:text-base"
       dangerouslySetInnerHTML={{__html: props.testimnlTestimonial}} 
     />
         </blockquote>
@@ -24,8 +24,8 @@ export default function Component(props:any) {
         }
 
         <div className="grid">
-          <div className="text-white font-bold font-UrbanistLight tracking-wide text-md sm:text-base">- {props.testimnlName}</div>
-          <div className="text-white text-sm text-muted-foreground">{props.testimnlDesignation}</div>
+          <div className="text-slate-800 font-bold font-UrbanistLight tracking-wide text-md sm:text-base">- {props.testimnlName}</div>
+          <div className="text-slate-800 text-sm text-muted-foreground">{props.testimnlDesignation}</div>
         </div>
       </div>
 

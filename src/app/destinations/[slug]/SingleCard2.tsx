@@ -22,13 +22,13 @@ const SingleCard = (props:any) => {
     {/*
     <Link href={`/itineraries/${props.mainSlugValue}`}>
     */}
-      <Card className={`bg-slate-50 bg-cover rounded-3xl shadow-none`} >
+      <Card className={`bg-slate-50 bg-cover shadow-none`} >
 
         <div className="w-full height-full">
 
         <CardContent className="flex border-none flex-col p-0 shadow-none">
 
-        <Image className="rounded-2xl w-full" src={props.thumbnailImage} alt="test" width="1000" height="1000"/>
+        <Image className=" w-full" src={props.thumbnailImage} alt="test" width="1000" height="1000"/>
 
 
         { (props.cardImageTitle || props.cardImageSubTitle) && 

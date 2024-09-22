@@ -12,9 +12,9 @@ const HeroHomeSlickSlide = (props:any) => {
   return (
     <div>
 
-      <div className="bg-center max-h-[580px] sm:min-h-[90vh] flex flex-col align-middle justify-center text-center">
+      <div className="bg-center max-h-[580px] sm:min-h-[94vh] flex flex-col align-middle justify-center text-center">
         <div className="
-        z-50 bg-[rgba(10,26,36,0.4)] min-h-[90vh] flex flex-col align-middle justify-center gap-8
+        z-50 bg-[rgba(10,26,36,0.4)] min-h-[94vh] flex flex-col align-middle justify-center gap-8
         ">
             <h2
             className="font-EduVICWANTBeginner px-8 text-white font-semibold text-4xl xl:text-7xl  text-center z-50"

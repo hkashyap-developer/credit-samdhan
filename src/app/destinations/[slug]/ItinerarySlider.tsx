@@ -102,7 +102,7 @@ const MainContactUsFields = (props:any) => {
     <>
         <div className={`px-[16px] md:p-8 ${fullVisibility} ${props.cstmClass}`}>
 
-      <p className=" text-3xl md:text-5xl font-bold text-[#246BEB] font-EduVICWANTBeginner text-center mb-8">{props.mainTitle}</p>
+      <p className=" text-3xl md:text-5xl font-bold text-slate-800 font-EduVICWANTBeginner text-center mb-8">{props.mainTitle}</p>
 
     <Slider {...test}>
 
@@ -113,7 +113,7 @@ const MainContactUsFields = (props:any) => {
 
 
         <div key={itinerary.id} className="p-0 md:p-4">
-          <div className="bg-slate-50 p-0 md:p-4 rounded-3xl md:hover:shadow-md">
+          <div className="bg-slate-50 p-0 md:p-4  md:hover:shadow-md">
 
           <SingleCard2
           key={itinerary.id}

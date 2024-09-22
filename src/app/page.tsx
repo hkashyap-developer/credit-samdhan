@@ -35,7 +35,7 @@ export default async function Home() {
 
       <div className="mb-12 md:mb-0">
           <ItinerarySlider 
-          mainTitle=""
+          mainTitle="Services"
           itineraries={itineraries} 
           destinationFilterSlug="home-page"
           offeringFilterSlug="Tour Packages"

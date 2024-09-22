@@ -18,7 +18,7 @@ const Footer = () => {
             <div className="mt-2 flex mb-4 sm:mb-0 justify-center sm:justify-start">
 
             <div>
-              <p className="text-md mt-2 text-slate-600">© Geranos Getaways 2024</p>
+              <p className="text-md mt-2 text-slate-600">© Credit Samdhan 2024</p>
               </div>
             </div>
 
@@ -31,13 +31,13 @@ const Footer = () => {
               </Link>
               */}
 
-              <Link target="_blank" href="https://www.facebook.com/Geranosgetaways" className="flex flex-col align-middle justify-center">
+              <Link target="_blank" href="https://www.facebook.com/" className="flex flex-col align-middle justify-center">
                 <Image src="/global/social/facebook.png" className="rounded max-w-[32px] sm:max-w-[40px]" alt="Social" width="40" height="40"/>
               </Link>
-              <Link target="_blank" href="https://www.instagram.com/geranosgetaways/" className="flex flex-col align-middle justify-center">
+              <Link target="_blank" href="https://www.instagram.com/" className="flex flex-col align-middle justify-center">
                 <Image src="/global/social/instagram.png" className="rounded max-w-[32px] sm:max-w-[40px]" alt="Social" width="40" height="40"/>
               </Link>
-              <Link target="_blank" href="https://www.linkedin.com/company/79039053/admin/dashboard/" className="flex flex-col align-middle justify-center">
+              <Link target="_blank" href="https://www.linkedin.com/" className="flex flex-col align-middle justify-center">
                 <Image src="/global/social/linkedin.png" className="rounded max-w-[32px] sm:max-w-[40px]" alt="Social" width="40" height="40"/>
               </Link>
             </p>

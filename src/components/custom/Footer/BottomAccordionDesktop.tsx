@@ -21,7 +21,7 @@ const BottomAccordion = () => {
 
         <div className="w-full flex flex-col gap-4">
 
-          <p className="flex w-full accCstmClsFtr text-sm font-semibold tracking-wider">ABOUT</p>
+          <p className="flex w-full accCstmClsFtr text-sm font-semibold tracking-wider">LINKS</p>
           <div className="flex">
               <LeftMenuItems/>
           </div>
@@ -32,7 +32,7 @@ const BottomAccordion = () => {
 
       <div className="w-full flex flex-col gap-4">
 
-            <p className="flex w-full accCstmClsFtr text-sm font-semibold tracking-wider">ADVERTISE & LIST ACCOMODATIONS</p>
+            <p className="flex w-full accCstmClsFtr text-sm font-semibold tracking-wider">CONTACT</p>
             <div className="flex">
                 <Advertise/>
             </div>
@@ -45,7 +45,7 @@ const BottomAccordion = () => {
 
         <div className="w-full flex flex-col gap-4">
 
-        <p className="flex w-full accCstmClsFtr text-sm font-semibold tracking-wider">TRAVEL NEWS</p>
+        <p className="flex w-full accCstmClsFtr text-sm font-semibold tracking-wider">CREDIT SAMDHAN</p>
         <div className="flex">
             <TravelNews/>
         </div>
