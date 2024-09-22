@@ -37,16 +37,16 @@ export default function SimpleSlider() {
 
 
       <HeroHomeSlide
-        title="Punjab"
-        subTitle="The Land of Timeless Heritage"
-        bgImage="/global/banners/punjab.jpg"
+        title="Easy Loans for Small Businesses"
+        subTitle="With Credit Samdhan"
+        bgImage="/global/banners/heroBannerOne.jpg"
         cardLink="/destinations/punjab"
       />
 
       <HeroHomeSlide
-        title="Uttarakhand"
-        subTitle="The Land of Nature & Holy Mountains"
-        bgImage="/global/banners/uttarakhand-2.jpg"
+        title="Quick Microfinance Personal Loans"
+        subTitle="With Credit Samdhan"
+        bgImage="/global/banners/heroBannerTwo.jpg"
         cardLink="/destinations/uttarakhand"
       />
 
