@@ -7,14 +7,23 @@ const LeftMenuItems = () => {
 
   <ul className="flex flex-col gap-2 text-left font-UrbanistLight tracking-wide">
     <Link href="/our-vision" className="flex">
-        <li>Vision</li>
+        <li>Home</li>
     </Link>
     <Link href="/our-mission" className="flex">
-        <li className="flex">Mission</li>
+        <li className="flex">About Us</li>
     </Link>
     <Link href="/our-logo" className="flex">
-        <li className="flex">Logo Description</li>
+        <li className="flex">Contact</li>
     </Link>
+    <Link href="/404" className="flex">
+        <li className="flex">404 Page</li>
+    </Link>
+    <Link href="/blog" className="flex">
+        <li className="flex">Blog</li>
+    </Link>  
+    <Link href="/new-lead" className="flex">
+        <li className="flex">New Lead</li>
+    </Link>        
   </ul>
   </div>
          

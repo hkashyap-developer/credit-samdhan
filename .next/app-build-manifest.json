@@ -32,15 +32,15 @@
       "static/chunks/main-app.js",
       "static/chunks/app/[slug]/page.js"
     ],
-    "/plan-a-trip/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/plan-a-trip/page.js"
-    ],
     "/_not-found/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/_not-found/page.js"
+    ],
+    "/new-lead/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/new-lead/page.js"
     ]
   }
 }

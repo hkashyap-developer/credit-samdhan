@@ -1,7 +1,7 @@
 {
-  "/blog/page": "app/blog/page.js",
   "/page": "app/page.js",
+  "/blog/page": "app/blog/page.js",
   "/[slug]/page": "app/[slug]/page.js",
-  "/plan-a-trip/page": "app/plan-a-trip/page.js",
-  "/contact/page": "app/contact/page.js"
+  "/contact/page": "app/contact/page.js",
+  "/new-lead/page": "app/new-lead/page.js"
 }
