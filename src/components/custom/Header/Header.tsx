@@ -17,11 +17,11 @@ import { Button } from '@/components/ui/button';
 import MobileNavigation from './MobileNavigation';
 const Header = () => {
   return (
-    <div className=" border-t-[10px] border-[#246BEB] fixed top-0 z-50 w-full bg-white min-h-[90px]">
+    <div className=" border-t-[10px] border-slate-400 fixed top-0 z-50 w-full bg-white min-h-[90px]">
     <div className="flex flex-row align-middle justify-between px-2 sm:px-6 py-2">
  
     <Link href="/" className="xl:min-w-[200px] flex flex-col align-start justify-center">
-    <Image src="/global/geranos-logo.png" width="140" height="80" alt="logo" className=""/>        
+    <Image src="/global/credit-samdhan-logo.png" width="600" height="420" alt="logo" className="max-w-[180px]"/>        
     </Link>
 
 
@@ -40,7 +40,7 @@ const Header = () => {
       <AlgoliaBlueButton ctaText="+ Trip" ctaLink="/plan-a-trip"/>
       </div>
       <div className="xl:flex hidden">
-      <AlgoliaBlueButton ctaText="Plan A Trip" ctaLink="/plan-a-trip"/>
+      <AlgoliaBlueButton ctaText="Get A Loan" ctaLink="/plan-a-trip"/>
       </div>
     </div>
 
