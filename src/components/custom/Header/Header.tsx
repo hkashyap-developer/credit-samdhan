@@ -15,6 +15,7 @@ import HamburgerIcon from './hamburger.webp'
 
 import { Button } from '@/components/ui/button';
 import MobileNavigation from './MobileNavigation';
+import HeaderAccountDetails from './HeaderAccountDetails';
 const Header = () => {
   return (
     <div className="max-w-[1920px] border-t-[10px] border-slate-400 fixed top-0 z-50 w-full bg-white min-h-[80px]">
@@ -65,6 +66,10 @@ const Header = () => {
       </SheetDescription>
 
     </SheetHeader>
+
+    <div className="mb-4">
+    <HeaderAccountDetails/>
+    </div>
 
     <MobileNavigation/>
 

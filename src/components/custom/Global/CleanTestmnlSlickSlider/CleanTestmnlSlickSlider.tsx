@@ -46,6 +46,7 @@ const CleanTestmnlSlickSlider = (props:any) => {
         autoplay:false,
         pauseOnHover: false,
         waitForAnimate: false,
+        adaptiveHeight: true,
         nextArrow: <ChevronRightIcon btnVisibility={btnVisibility}/>,
         prevArrow: <ChevronLeftIcon  btnVisibility={btnVisibility}/>,
         responsive: [
@@ -89,7 +90,7 @@ const CleanTestmnlSlickSlider = (props:any) => {
 
 
         <div key={Testimonial.id} className="p-0 md:p-4">
-          <div className="bg-slate-50 p-0 md:p-4  md:hover:shadow-md">
+          <div className=" p-0 md:p-4  ">
 
           <SingleTestmnlSlickCard
           key=""
