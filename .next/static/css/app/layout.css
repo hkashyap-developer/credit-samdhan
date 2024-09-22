@@ -1087,6 +1087,15 @@ video {
 .max-h-screen {
   max-height: 100vh;
 }
+.max-h-\[12px\] {
+  max-height: 12px;
+}
+.max-h-\[22px\] {
+  max-height: 22px;
+}
+.max-h-\[28px\] {
+  max-height: 28px;
+}
 .min-h-\[16rem\] {
   min-height: 16rem;
 }
