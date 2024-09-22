@@ -3945,6 +3945,10 @@ img[btnvisibility="hidden"] {
     margin-left: 0px;
   }
 
+  .md\:mb-8 {
+    margin-bottom: 2rem;
+  }
+
   .md\:max-h-\[420px\] {
     max-height: 420px;
   }
@@ -3975,6 +3979,10 @@ img[btnvisibility="hidden"] {
 
   .md\:max-w-\[420px\] {
     max-width: 420px;
+  }
+
+  .md\:max-w-\[120px\] {
+    max-width: 120px;
   }
 
   .md\:basis-1\/2 {

@@ -79,7 +79,7 @@ const CleanTestmnlSlickSlider = (props:any) => {
     <>
         <div className={`px-[16px] md:p-8 ${fullVisibility} ${props.cstmClass}`}>
 
-      <p className=" text-3xl md:text-5xl font-bold text-slate-800 font-EduVICWANTBeginner text-center mb-8">Testimonials</p>
+      <p className=" text-3xl md:text-5xl font-bold text-slate-800 font-EduVICWANTBeginner text-center mb-6 md:mb-8">Testimonials</p>
 
     <Slider {...test}>
 
