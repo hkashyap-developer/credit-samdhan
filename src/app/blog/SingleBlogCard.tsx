@@ -20,7 +20,7 @@ const SingleBlogCard = ({title, date, excerpt, slug, image}:any) => {
             dangerouslySetInnerHTML={{__html: excerpt}}
           />
           <Link href={`/blog/${slug}`}>
-            <Button className="bg-[#2F6BEB] text-justify text-sm sm:text-base font-UrbanistLight tracking-wide">Read Blog</Button>
+            <Button className="bg-slate-800 text-justify text-sm sm:text-base font-UrbanistLight tracking-wide">Read Blog</Button>
           </Link>
         </div>
 

@@ -10,7 +10,7 @@ import LastBarRight from './LastBarRight'
 const Footer = () => {
   return (
     <>
-    <div className=" sm:bg-white border-b-[10px] border-[#246BEB] w-full  min-h-[90px] flex flex-col justify-around px-4 sm:px-6 pt-12 pb-8 sm:pt-12 sm:pb-4">
+    <div className=" sm:bg-white border-b-[10px] border-slate-300 w-full  min-h-[90px] flex flex-col justify-around px-4 sm:px-6 pt-12 pb-8 sm:pt-12 sm:pb-4">
         <div className="max-w-[1800px] w-full mx-auto">
         <div className="flex flex-col sm:flex-row justify-between mb-12">
 
@@ -56,13 +56,13 @@ const Footer = () => {
 
         <Separator className="mb-12"/>
 
-        {/*
+  
         <div className="flex flex-col sm:flex-row align-middle justify-between">
           <LastBarLeft/>
           <LastBarRight/>
 
         </div>
-        */}
+
 
 
         </div>

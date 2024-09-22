@@ -1663,6 +1663,10 @@ video {
   --tw-border-opacity: 1;
   border-color: rgb(148 163 184 / var(--tw-border-opacity));
 }
+.border-slate-300 {
+  --tw-border-opacity: 1;
+  border-color: rgb(203 213 225 / var(--tw-border-opacity));
+}
 .bg-\[\#000000\] {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
@@ -1752,6 +1756,9 @@ video {
 }
 .bg-none {
   background-image: none;
+}
+.bg-\[url\(\'\/global\/banners\/orange-gradient\.jpg\'\)\] {
+  background-image: url('/global/banners/orange-gradient.jpg');
 }
 .from-sky-500 {
   --tw-gradient-from: #0ea5e9 var(--tw-gradient-from-position);
@@ -2243,6 +2250,10 @@ video {
   --tw-drop-shadow: drop-shadow(0 1px 1px rgb(0 0 0 / 0.05));
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
+.drop-shadow-2xl {
+  --tw-drop-shadow: drop-shadow(0 25px 25px rgb(0 0 0 / 0.15));
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
 .filter {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
@@ -2346,6 +2357,30 @@ video {
 }
 .\[gap\:var\(--gap\)\] {
   gap: var(--gap);
+}
+.\[text-shadow\:_0_1px_0_rgb\(0_0_0_\/_40\%\)\] {
+  text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
+}
+.\[text-shadow\:_0_4px_4px_rgba\(0_0_0_\/_1\)\] {
+  text-shadow: 0 4px 4px rgba(0 0 0 / 1);
+}
+.\[text-shadow\:_0_4px_8px_rgba\(0_0_0_\/_0\.5\)\] {
+  text-shadow: 0 4px 8px rgba(0 0 0 / 0.5);
+}
+.\[text-shadow\:_0_4px_8px_rgba\(0_0_0_\/_1\)\] {
+  text-shadow: 0 4px 8px rgba(0 0 0 / 1);
+}
+.\[text-shadow\:_0_8px_8px_rgba\(0_0_0_\/_0\.4\)\] {
+  text-shadow: 0 8px 8px rgba(0 0 0 / 0.4);
+}
+.\[text-shadow\:_0_8px_8px_rgba\(0_0_0_\/_0\.8\)\] {
+  text-shadow: 0 8px 8px rgba(0 0 0 / 0.8);
+}
+.\[text-shadow\:_0_8px_8px_rgba\(0_0_0_\/_1\)\] {
+  text-shadow: 0 8px 8px rgba(0 0 0 / 1);
+}
+.\[text-shadow\:_8_8px_8px_rgba\(0_0_0_\/_1\)\] {
+  text-shadow: 8 8px 8px rgba(0 0 0 / 1);
 }
 
 

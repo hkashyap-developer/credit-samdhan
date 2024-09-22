@@ -56,7 +56,7 @@ export default async function Home() {
       />
 
       <TextAndImage 
-      imageLink="/global/collage-21.jpg"      
+      imageLink="/global/collage-24.jpg"      
       imagePostion="left"
       titleText="What Do We Offer?"
       subHeading="Curated, Immersive Experiences Designed Just for You"  

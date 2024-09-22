@@ -9,6 +9,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+import HomeSliderCards from '../../../../public/data/HomeSliderCards.json'
 
 import Image from 'next/image'
 
@@ -107,25 +108,25 @@ const MainContactUsFields = (props:any) => {
     <Slider {...test}>
 
 
-    {props.itineraries && props.itineraries.map((itinerary:any) => (
+    {HomeSliderCards && HomeSliderCards.map((HomeSliderCard:any) => (
 
-        ((itinerary.acf.offerings === props.offeringFilterSlug) && (itinerary.acf.destination.post_name === props.destinationFilterSlug)) && (
+      
 
 
-        <div key={itinerary.id} className="p-0 md:p-4">
+        <div key={HomeSliderCard.id} className="p-0 md:p-4">
           <div className="bg-slate-50 p-0 md:p-4  md:hover:shadow-md">
 
           <SingleCard2
-          key={itinerary.id}
-          mainSlugValue={itinerary.slug}
-          thumbnailImage={itinerary.acf.thumbnail}
-          cardImageTitle={itinerary.acf.slider_settings.title}
-          cardImageSubTitle={itinerary.acf.slider_settings.sub_title}
+          key=""
+          mainSlugValue=""
+          thumbnailImage={HomeSliderCard.backgroundImg}
+          cardImageTitle={HomeSliderCard.title}
+          cardImageSubTitle={HomeSliderCard.subTitle}
           />
           
           </div>
         </div>
-        )
+       
         
 
     ))}
