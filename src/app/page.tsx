@@ -49,8 +49,8 @@ export default async function Home() {
       imageLink="/global/collage-20.png"
       imagePostion="right"
       titleText="About Credit Samdhan"
-      subHeading="Your Gateway to Authentic Cultural and Luxurious Journeys"
-      content="<p>At Geranos Getaways, we believe in appreciating culture through tourism. Travelling is about visiting new places and experiencing new ways of life, traditions, and values. By immersing ourselves in local culture, we can better understand and appreciate the world around us. </p><p>Our motto, <u><b>&quot;rediscover yourself&quot;</b></u> speaks to the essence of travelling and the motivation to escape from our comfort zones and experience tourism responsibly. Our mission is to provide travellers with an authentic and immersive cultural experience that allows them to appreciate the diversity of our world and rediscover themselves in the process.</p>"
+      subHeading="Empowering Communities through Microfinance"
+      content="<p>Credit Samdhan is dedicated to providing microfinance solutions that empower individuals and small businesses. We offer tailored financial services, including small loans and savings schemes, to help underserved communities achieve economic independence. Our mission is to bridge financial gaps and support clients in building sustainable futures. Through transparency and a customer-first approach, we strive to make a positive impact and foster financial inclusion across the communities we serve.</p>"
       ctaText="Learn More"
       ctaLink=""
       />
@@ -58,9 +58,9 @@ export default async function Home() {
       <TextAndImage 
       imageLink="/global/collage-24.jpg"      
       imagePostion="left"
-      titleText="What Do We Offer?"
-      subHeading="Curated, Immersive Experiences Designed Just for You"  
-      content="<p>At Geranos Getaways, we take pride in curating deeply immersive and tailored luxury tours in Punjab and Uttarakhand. Our offerings are designed to immerse you in authentic local experiences that seamlessly blend historical, religious and cultural excursions with eco-friendly and sustainable stays. Our itineraries foster authentic connections with rural communities, farm stays, immersive village experiences, local food discovery, and nature trail adventures. These peerless offerings promise an enriching and unforgettable exploration of the diverse heritage, natural wonders, and vibrant local culture in Punjab and Uttarakhand.</p>"
+      titleText="Solutions we offer"
+      subHeading="Sustainable Banking for Social Empowerment"  
+      content="<p>Credit Samdhan offers microfinance services to foster economic growth. With a focus on sustainable banking. <span style=''>We are committed to empowering women by providing microfinance to help them start and grow businesses</span>, driving self-reliance and community upliftment. We are committed to empowering women by providing microfinance to help them start and grow businesses, driving self-reliance and community upliftment.</p>"
       ctaText="Learn More"
       ctaLink=""    
       />  
@@ -69,8 +69,8 @@ export default async function Home() {
       imageLink="/global/collage-22.jpg"      
       imagePostion="right"
       titleText="Why Credit Samdhan?"
-      subHeading="Responsible Travel, Personalized Service, and Unforgettable Memories"
-      content="<p>We understand the value of responsible travel and are committed to providing personalized journeys that align with your ethical principles. Our experts will accompany you on an immersive exploration of Punjab, Uttarakhand, and other regions of India. We focus on luxurious yet eco-friendly and responsible local accommodations and travel, ensuring that your journey is enriching and sustainable.</p>"
+      subHeading="We will support you in your financial journey"
+      content="<p>At Credit Samdhan, we focus on your financial well-being with personalized solutions tailored to your needs. Our commitment to transparency and customer satisfaction ensures reliable services. We specialize in microfinance for small businesses, particularly assisting women entrepreneurs and promoting sustainable banking practices. Our dedicated team provides the tools and support you need to achieve financial independence. With Credit Samdhan, you’re not just getting a loan; you’re building a brighter, more secure future.</p>"
       ctaText="Learn More"
       ctaLink=""
       />   
