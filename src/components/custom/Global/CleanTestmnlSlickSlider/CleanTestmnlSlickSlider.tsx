@@ -41,7 +41,7 @@ const CleanTestmnlSlickSlider = (props:any) => {
         buttons:true,
         infinite: false,
         speed: 800,
-        slidesToShow: 3,
+        slidesToShow: 2,
         slidesToScroll: 1,
         autoplay:false,
         pauseOnHover: false,
@@ -77,7 +77,7 @@ const CleanTestmnlSlickSlider = (props:any) => {
 
   return (
     <>
-        <div className={`px-[16px] md:p-8 ${fullVisibility} ${props.cstmClass}`}>
+        <div className={`px-[16px] md:p-8 ${fullVisibility} ${props.cstmClass} max-w-[1600px] mx-auto`}>
 
       <p className=" text-3xl md:text-5xl font-bold text-slate-800 font-EduVICWANTBeginner text-center mb-6 md:mb-8">Testimonials</p>
 
