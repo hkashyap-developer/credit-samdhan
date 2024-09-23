@@ -3,25 +3,25 @@ import React from 'react'
 import { Button } from '@/components/ui/button'
 import Link from 'next/link'
 import MainContactUs from '@/components/custom/MainContactUs'
-
+import InnerHeroOne from '@/components/custom/Global/InnerHeroOne'
 
 
 
 const Page = () => {
   return (
     <div className="min-h-[400px] flex flex-col my-12 mb-0">
-        <div className="bg-cover bg-[url('/global/banners/contact-3.jpg')] min-h-[380px] sm:min-h-[420px] bg-slate-50">
-            <div className="bg-[rgba(0,0,0,0.3)] flex aling-middle justify-center gap-6 text-center flex-col min-h-[380px] sm:min-h-[420px] px-4 py-12">
-            <h1 className="text-white text-5xl sm:text-5xl md:text-6xl font-EduVICWANTBeginner">Contact Us</h1>
-            <p className="text-white text-xl">We are happy to assist!</p>
-            
-            <Link href="#cstmContId" id="cstmContId" className="max-w-min mx-auto">
-              <Button className="max-w-min mx-auto font-normal text-md md:text-xl bg-transparent hover:bg-transparent border-2 border-white text-white p-4 md:p-6 rounded-full">
-                Message ↓
-              </Button>
-            </Link>
-            </div>
-        </div>
+
+
+
+
+      <InnerHeroOne
+        bgImgUrl="/global/banners/orange-gradient.jpg"
+        title="Contact Us"
+        subtitle="We are happy to assist!"
+        ctaText="Message"
+      />
+
+
 
         <div  className="flex flex-col xl:flex-row max-w-[600px] w-full mx-auto xl:max-w-full gap-12 justify-center p-4 pt-12 sm:p-4 sm:pt-16 md:pb-4">
           <div className="flex justify-center">

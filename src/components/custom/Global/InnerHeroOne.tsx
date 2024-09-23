@@ -17,7 +17,7 @@ const InnerHeroOne = (props:any) => {
 
 
         <div className="bg-[rgba(0,0,0,0.3)] flex aling-middle justify-center gap-6 md:gap-6 text-center flex-col min-h-[380px] md:min-h-[420px] xl:min-h-[420px] px-4 py-12 z-10">
-        <h1 className="leading-10 text-white text-[2.5rem] sm:text-5xl md:text-6xl xl:text-6xl font-EduVICWANTBeginner mb-[-8px] md:mb-[0px] z-10">{props.title}</h1>
+        <h1 className="leading-10 font-semibold text-white text-[2.5rem] sm:text-5xl md:text-6xl xl:text-5xl  mb-[-8px] md:mb-[0px] z-10">{props.title}</h1>
         <p className="text-white text-xl z-10">{props.subtitle}</p>
         
         <Link href="#cstmContId" id="cstmContId" className="max-w-min mx-auto z-10">

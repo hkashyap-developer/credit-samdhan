@@ -17,7 +17,7 @@ const HeroHomeSlickSlide = (props:any) => {
         z-50 bg-[rgba(10,26,36,0.4)] min-h-[94vh] flex flex-col align-middle justify-center gap-8
         ">
             <h2
-            className="font-EduVICWANTBeginner px-8 text-white font-semibold text-4xl xl:text-7xl  text-center z-50"
+            className=" px-8 text-white font-semibold text-4xl xl:text-7xl  text-center z-50"
             >
                 {props.title}
             </h2>
