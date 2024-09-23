@@ -16,7 +16,7 @@ const BottomAccordion = () => {
       <div className="w-full">
         <Accordion type="single" collapsible className="">
           <AccordionItem value="about" className="border-none">
-            <AccordionTrigger className="w-full text-sm sm:text-sm hover:decoration-none tracking-wider">ABOUT</AccordionTrigger>
+            <AccordionTrigger className="w-full text-sm sm:text-sm hover:decoration-none tracking-wider">LINKS</AccordionTrigger>
             <AccordionContent className="pb-0 border-none">
 
               <LeftMenuItems/>
@@ -29,7 +29,7 @@ const BottomAccordion = () => {
       <div className="w-full">
         <Accordion type="single" collapsible className="">
           <AccordionItem value="advertize" className="border-none">
-            <AccordionTrigger className="w-full text-sm sm:text-sm hover:decoration-none tracking-wider">ADS & LIST ACCOMODATIONS</AccordionTrigger>
+            <AccordionTrigger className="w-full text-sm sm:text-sm hover:decoration-none tracking-wider">CONTACT</AccordionTrigger>
             <AccordionContent className="pb-0 border-none">
 
               <Advertise/>
@@ -42,7 +42,7 @@ const BottomAccordion = () => {
       <div className="w-full">
         <Accordion type="single" collapsible className="">
           <AccordionItem value="news" className="border-none">
-            <AccordionTrigger className="w-full text-sm sm:text-sm hover:decoration-none tracking-wider">TRAVEL NEWS</AccordionTrigger>
+            <AccordionTrigger className="w-full text-sm sm:text-sm hover:decoration-none tracking-wider">CREDIT SAMDHAN</AccordionTrigger>
             <AccordionContent className="pb-0 border-none">
 
               <TravelNews/>
