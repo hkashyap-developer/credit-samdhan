@@ -26,7 +26,7 @@ export default async function Home() {
 
     <HeroSlickSlider/>
 
-      <div className="min-h-[40px] block xl:hidden"></div>
+      <div className="min-h-[0px] xl:min-h-[40px] block xl:hidden"></div>
 
 
 
@@ -36,7 +36,7 @@ export default async function Home() {
 
       <div className="mb-12 md:mb-0">
           <ItinerarySlider 
-          mainTitle="Our Features"
+          mainTitle=""
           itineraries={itineraries} 
           destinationFilterSlug="home-page"
           offeringFilterSlug="Tour Packages"
