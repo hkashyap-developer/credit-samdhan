@@ -37,14 +37,14 @@ export default function SimpleSlider() {
 
 
       <HeroHomeSlide
-        title="Easy Loans for Small Businesses"
+        title="Loans for Small Businesses"
         subTitle="With Credit Samdhan"
         bgImage="/global/banners/heroBannerOne.jpg"
         cardLink="/destinations/punjab"
       />
 
       <HeroHomeSlide
-        title="Quick Microfinance Personal Loans"
+        title="Microfinance & Personal Loans"
         subTitle="With Credit Samdhan"
         bgImage="/global/banners/heroBannerTwo.jpg"
         cardLink="/destinations/uttarakhand"
