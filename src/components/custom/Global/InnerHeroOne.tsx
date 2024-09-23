@@ -11,7 +11,7 @@ const InnerHeroOne = (props:any) => {
 
         <Image 
         
-        src="/global/banners/contact-5.jpg" alt="" width="1920" height="600"
+        src={props.bgImgUrl} alt="" width="1920" height="600"
         className="h-full absolute object-cover max-h-[380px] md:max-h-[420px] xl:max-h-[420px] z-[-1]"
         />
 

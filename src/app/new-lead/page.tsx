@@ -25,9 +25,9 @@ const PlanATrip = () => {
     <>
 
       <InnerHeroOne
-        bgImgUrl="/global/banners/blog-main-final.jpg"
+        bgImgUrl="/global/banners/orange-gradient.jpg"
         title="Plan A Getaway!"
-        subtitle="Fill the form and we will get back to you in 24 hours!"
+        subtitle="Fill the form and we will get back to you in 24 hours! test"
         ctaText="Fill The Form"
       />
 
@@ -57,7 +57,7 @@ const PlanATrip = () => {
 
 
 
-        <div className="flex flex-1 max-w-[620px] w-full hidden 2xl:block">
+        <div className="flex flex-1 max-w-[620px] w-full  2xl:block">
         
       
         </div>
