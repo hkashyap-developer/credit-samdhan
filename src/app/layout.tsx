@@ -4,6 +4,9 @@ import "./globals.css";
 import Header from "@/components/custom/Header/Header";
 import Footer from "@/components/custom/Footer/Footer";
 import { Toaster } from "@/components/ui/toaster"
+import { ClerkProvider, SignInButton, SignedIn, SignedOut, UserButton } from '@clerk/nextjs'
+
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -84,6 +87,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
+
+    <ClerkProvider>
     <html lang="en" className={`max-w-[1920px] mx-auto w-full ${myFont.variable} ${dancingScript.variable} ${SedgwickAve.variable} ${BethEllen.variable} ${EduVICWANTBeginner.variable} ${UrbanistLight.variable} scroll-smooth`}>
 
       <body className={inter.className}>
@@ -98,5 +103,6 @@ export default function RootLayout({
       <Toaster />
       </body>
     </html>
+    </ClerkProvider>
   );
 }

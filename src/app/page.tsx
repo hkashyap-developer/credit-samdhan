@@ -35,6 +35,9 @@ export default async function Home() {
 
 
       <div className="mb-12 md:mb-0">
+
+
+        
           <ItinerarySlider 
           mainTitle=""
           itineraries={itineraries} 

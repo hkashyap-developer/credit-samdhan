@@ -28,19 +28,19 @@ const Page = () => {
             <ul className="flex gap-4 text-left flex-col align-middle justify-center">
                 <li className="text-slate-700 flex flex-row gap-2 justify-start align-middle text-md sm:text-xl font-regular">
                     <PhoneIcon className="h-5 w-5 sm:h-6 sm:w-6 mt-1" />
-                    <Link href="tel:+918837562970">
-                    +91 88375 62970
+                    <Link href="tel:+911122553322">
+                    +91 1122 55 3322
                     </Link>
                     </li>
                 <li className="text-slate-700 flex flex-row gap-2 justify-start align-middle text-md sm:text-xl font-regular">
                     <MailIcon className="h-5 w-5 sm:h-6 sm:w-6 mt-1" />
-                    <Link href="mailto:info@geranosgetaways.com">
-                    info@geranosgetaways.com
+                    <Link href="mailto:contact@creditsamdhan.com">
+                    contact@creditsamdhan.com
                     </Link>
                     </li>
                 <li className="text-slate-700 flex flex-row gap-2 justify-start align-middle text-md sm:text-xl font-regular">
                     <WhatsappIcon className="h-5 w-5 sm:h-6 sm:w-6 mt-1" />
-                    <Link href="https://wa.link/601xde" target="_blank">
+                    <Link href="https://web.whatsapp.com" target="_blank">
                     WhatsApp Us
                     </Link>
                     

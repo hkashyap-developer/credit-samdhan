@@ -38,10 +38,10 @@ const Header = () => {
 
     <div className="flex gap-4 flex-row align-middle justify-center">
       <div className="xl:hidden flex">
-      <AlgoliaBlueButton ctaText="+ Lend" ctaLink="/plan-a-trip"/>
+      <AlgoliaBlueButton ctaText="+ Lend" ctaLink="/sign-in"/>
       </div>
       <div className="xl:flex hidden">
-      <AlgoliaBlueButton ctaText="Get A Loan" ctaLink="/login"/>
+      <AlgoliaBlueButton ctaText="Get A Loan" ctaLink="/sign-in"/>
       </div>
     </div>
 
