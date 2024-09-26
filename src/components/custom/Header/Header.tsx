@@ -16,7 +16,13 @@ import HamburgerIcon from './hamburger.webp'
 import { Button } from '@/components/ui/button';
 import MobileNavigation from './MobileNavigation';
 import HeaderAccountDetails from './HeaderAccountDetails';
-const Header = () => {
+import { auth, currentUser } from '@clerk/nextjs/server'
+import { UserButton, UserProfile } from '@clerk/nextjs';
+
+const Header = async() => {
+
+  const user = await currentUser()
+
   return (
     <div className="max-w-[1920px] border-t-[10px] border-slate-400 fixed top-0 z-50 w-full bg-white min-h-[80px]">
     <div className="flex flex-row align-middle justify-between px-2 sm:px-6 py-2">
@@ -37,12 +43,24 @@ const Header = () => {
 
 
     <div className="flex gap-4 flex-row align-middle justify-center">
+
+
+
       <div className="xl:hidden flex">
       <AlgoliaBlueButton ctaText="+ Lend" ctaLink="/sign-in"/>
       </div>
       <div className="xl:flex hidden">
       <AlgoliaBlueButton ctaText="Get A Loan" ctaLink="/sign-in"/>
       </div>
+
+
+
+      {
+        user?<UserButton/>:<Button asChild><Link href="/sign-in">Get A Loan</Link></Button>
+      }
+
+
+
     </div>
 
 
