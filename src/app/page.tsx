@@ -10,6 +10,7 @@ import Testimonials from '@/components/custom/Testimonials/Testimonials'
 import HeroSlickSlider from '@/components/custom/Global/HeroHomeSlider/HeroHomeSlider'
 import ItinerarySlider from '@/app/destinations/[slug]/ItinerarySlider'
 import CleanTestmnlSlickSlider from "@/components/custom/Global/CleanTestmnlSlickSlider/CleanTestmnlSlickSlider";
+import MainLoginSignupSection from "@/components/custom/MainLoginSignupSection/MainLoginSignupSection";
 
 export default async function Home() {
 
@@ -23,6 +24,9 @@ export default async function Home() {
     <main className="flex min-h-screen flex-col">
 
     
+    <MainLoginSignupSection/>
+
+
 
     <HeroSlickSlider/>
 
