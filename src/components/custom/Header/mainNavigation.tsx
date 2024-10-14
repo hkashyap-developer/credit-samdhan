@@ -20,7 +20,7 @@ const locations: { title: string; href: string; description: string }[] = [
  
   {
     title: "Loan Consulting",
-    href: "",
+    href: "/loan-application",
     description: "",
   },
   {
@@ -75,15 +75,6 @@ export default function NavigationMenuDemo() {
 
 
 
-      <NavigationMenuItem>
-          <Link href="/" legacyBehavior passHref>
-            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              <p className="uppercase tracking-wider">
-                Home
-              </p>
-            </NavigationMenuLink>
-          </Link>
-        </NavigationMenuItem>
 
 
         <NavigationMenuItem>
@@ -104,6 +95,7 @@ export default function NavigationMenuDemo() {
           <NavigationMenuContent>
             <ul className=" grid w-[400px] gap-3 p-4 md:w-[330px] md:grid-cols-1 lg:w-[330px] ">
               {locations.map((location) => (
+                <Link href={location.href}>
                 <ListItem
                   key={location.title}
                   title={location.title}
@@ -111,6 +103,7 @@ export default function NavigationMenuDemo() {
                 >
                   {location.description}
                 </ListItem>
+                </Link>
               ))}
             </ul>
           </NavigationMenuContent>

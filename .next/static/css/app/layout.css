@@ -1258,6 +1258,9 @@ video {
 .max-w-\[620px\] {
   max-width: 620px;
 }
+.max-w-\[700px\] {
+  max-width: 700px;
+}
 .max-w-\[800px\] {
   max-width: 800px;
 }
@@ -1837,6 +1840,10 @@ video {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -1950,6 +1957,10 @@ video {
   font-size: 3rem;
   line-height: 1;
 }
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
+}
 .text-7xl {
   font-size: 4.5rem;
   line-height: 1;
@@ -2002,6 +2013,9 @@ video {
 }
 .uppercase {
   text-transform: uppercase;
+}
+.capitalize {
+  text-transform: capitalize;
 }
 .leading-10 {
   line-height: 2.5rem;

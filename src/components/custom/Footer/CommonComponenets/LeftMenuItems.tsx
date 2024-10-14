@@ -9,7 +9,7 @@ const LeftMenuItems = () => {
     <Link href="/our-vision" className="flex">
         <li>Home</li>
     </Link>
-    <Link href="/our-mission" className="flex">
+    <Link href="/about" className="flex">
         <li className="flex">About Us</li>
     </Link>
     <Link href="/our-logo" className="flex">
