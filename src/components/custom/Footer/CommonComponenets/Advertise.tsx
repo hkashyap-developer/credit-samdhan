@@ -8,21 +8,24 @@ const Advertise = () => {
             <li className="flex flex-row gap-2 justify-start align-middle ">
                 <Link href="tel:+911122788557" className=" flex flex-row gap-2 justify-start align-middle">
                     <PhoneIcon className="h-4 w-4 mt-1" />
-                    +91 11227 88557
+                    +91 88227 88557
                 </Link>
                 </li>
+
+
+                <li className="flex flex-row gap-2 justify-start align-middle ">
+                <Link href="tel:+911122788557" className=" flex flex-row gap-2 justify-start align-middle">
+                    <PhoneIcon className="h-4 w-4 mt-1" />
+                    +91 66227 88545
+                </Link>
+                </li>
+
             <li className="flex flex-row gap-2 justify-start align-middle">
                 <Link href="mailto:info@geranosgetaways.com" className=" flex flex-row gap-2 justify-start align-middle">
                     <MailIcon className="h-4 w-4 mt-1" />
                     contact@creditsamdhan.com
                 </Link> 
                 </li>
-            <li className="flex flex-row gap-2 justify-start align-middle">
-                <Link href="https://web.whatsapp.com" target="_blank" className=" flex flex-row gap-2 justify-start align-middle">
-                    <WhatsappIcon className="h-4 w-4 mt-1" />
-                    WhatsApp Us
-                </Link>    
-            </li>
 
         </ul>
     </>

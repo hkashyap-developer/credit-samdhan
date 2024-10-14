@@ -38,13 +38,6 @@ const Page = () => {
                     contact@creditsamdhan.com
                     </Link>
                     </li>
-                <li className="text-slate-700 flex flex-row gap-2 justify-start align-middle text-md sm:text-xl font-regular">
-                    <WhatsappIcon className="h-5 w-5 sm:h-6 sm:w-6 mt-1" />
-                    <Link href="https://web.whatsapp.com" target="_blank">
-                    WhatsApp Us
-                    </Link>
-                    
-                    </li>
             </ul>
           </div>
 

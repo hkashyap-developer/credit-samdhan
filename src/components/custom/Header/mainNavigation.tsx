@@ -78,7 +78,7 @@ export default function NavigationMenuDemo() {
 
 
         <NavigationMenuItem>
-          <Link href="/about" legacyBehavior passHref>
+          <Link href="/about-us" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               <p className="uppercase tracking-wider">
                 About

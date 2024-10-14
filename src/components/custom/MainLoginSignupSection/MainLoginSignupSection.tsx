@@ -24,7 +24,7 @@ const MainLoginSignupSection = async() => {
         <div className="flex-1 flex align-middle justify-center">
 
             {
-            user?<Image className="max-w-[720px]" src="/global/collage-24.jpg" height="1920" width="1920" alt="Hero Image"/>:<SignIn />
+            user?<Image className="max-w-[720px]" src="/global/collage-24.jpg" height="1920" width="1920" alt="Hero Image"/>:<div className="py-16"><SignIn /></div>
             }
 
             
