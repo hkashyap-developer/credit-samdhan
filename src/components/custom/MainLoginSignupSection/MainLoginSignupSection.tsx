@@ -10,7 +10,7 @@ const MainLoginSignupSection = async() => {
     const user = await currentUser()
 
   return (
-    <div className="flex flex-row py-20">
+    <div className="flex flex-row py-4">
 
         <div className="flex-1 my-auto">
             <div className="max-w-[700px] mx-auto my-auto flex flex-col gap-6">
@@ -24,7 +24,7 @@ const MainLoginSignupSection = async() => {
         <div className="flex-1 flex align-middle justify-center">
 
             {
-            user?<Image src="/global/collage-26.jpg" height="1920" width="1920" alt="Hero Image"/>:<SignIn />
+            user?<Image className="max-w-[720px]" src="/global/collage-24.jpg" height="1920" width="1920" alt="Hero Image"/>:<SignIn />
             }
 
             

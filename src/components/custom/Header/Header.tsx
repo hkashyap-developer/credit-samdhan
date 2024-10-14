@@ -49,7 +49,7 @@ const Header = async() => {
 
 
       {
-        user?<UserButton/>:<Button asChild className="text-xl"><Link href="/sign-in" className="my-auto">Account</Link></Button>
+        user?<div className="max-h-[40px] my-auto"><UserButton/></div>:<Button asChild className="text-xl"><Link href="/sign-in" className="my-auto">Account</Link></Button>
       }
 
 
