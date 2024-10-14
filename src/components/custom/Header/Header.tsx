@@ -46,17 +46,10 @@ const Header = async() => {
 
 
 
-      <div className="xl:hidden flex">
-      <AlgoliaBlueButton ctaText="+ Lend" ctaLink="/sign-in"/>
-      </div>
-      <div className="xl:flex hidden">
-      <AlgoliaBlueButton ctaText="Get A Loan" ctaLink="/sign-in"/>
-      </div>
-
 
 
       {
-        user?<UserButton/>:<Button asChild><Link href="/sign-in">Get A Loan</Link></Button>
+        user?<UserButton/>:<Button asChild className="text-xl"><Link href="/sign-in" className="my-auto">Account</Link></Button>
       }
 
 

@@ -888,6 +888,10 @@ video {
   margin-top: 40px;
   margin-bottom: 40px;
 }
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
 .-ml-4 {
   margin-left: -1rem;
 }
