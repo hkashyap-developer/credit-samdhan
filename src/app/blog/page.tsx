@@ -1,26 +1,44 @@
 import React from 'react'
-import Link from 'next/link'
-import {Button} from '@/components/ui/button'
-import SingleBlogCard from './SingleBlogCard'
-import InnerHeroOne from '@/components/custom/Global/InnerHeroOne'
 
-export const revalidate = 10
+import InnerHeroOne from '@/components/custom/Global/InnerHeroOne'
+import SingleBlogCard from './SingleBlogCard'
+
+
+import { client } from '@/app/lib/sanity'
+
+import { urlFor } from '@/app/lib/sanity'
+
+
+
+import { blogCard } from '@/app/lib/interface'
+
+export const revalidate = 10;
+
+async function getBlogs() {
+  const query=`
+  *[_type == 'blogs'] {
+  title,
+  image,
+  "slug": slug.current, 
+  excerpt,
+  publishedAt,
+  }`;
+
+  const blogs = await client.fetch(query); 
+  return blogs; 
+}
+
 
 const BlogPage = async() => {
 
 
-  const req = await fetch(`https://dashboard.geranosgetaways.com/wp-json/wp/v2/posts?acf_format=standard&_fields=id,title,slug,date,excerpt,acf`, { cache: 'no-store' } ); 
-  const blogs = await req.json(); 
- 
+  const blogs: blogCard[] = await getBlogs(); 
+  console.log(blogs); 
 
 
   return (
 
     <div>
-
-
-
-
 
       <InnerHeroOne
         bgImgUrl="/global/banners/orange-gradient.jpg"
@@ -31,22 +49,17 @@ const BlogPage = async() => {
 
 
 
-
-
-
-
-
       <div>
       {
         blogs && blogs.map((blog:any) => {
           return (
             <div key={blog.id}>
               <SingleBlogCard 
-              title={blog.title.rendered} 
-              date={blog.date}
-              excerpt={blog.excerpt.rendered}
+              title={blog.title}
+              date={blog.publishedAt}
+              excerpt={blog.excerpt}
               slug={blog.slug}
-              image={blog.acf.mobile_featured_image}
+              image={urlFor(blog.image).url()}
               />
             </div> 
           )

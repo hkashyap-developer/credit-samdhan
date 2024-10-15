@@ -12,6 +12,10 @@ const ListAccomodations = () => {
                 <MailIcon className="h-4 w-4 mt-1" />
                 hello@gerenosgetaways.com
                 </li>
+            <li className="flex flex-row gap-2 justify-start align-middle">
+                <WhatsappIcon className="h-4 w-4 mt-1" />
+                WhatsApp Us
+                </li>
         </ul>
     </div>
   )

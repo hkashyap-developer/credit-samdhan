@@ -1,8 +1,7 @@
-'use client'
-
 import React from 'react'
-import { useEffect } from 'react';
 import Image from 'next/image'
+import { urlFor } from '@/app/lib/sanity'
+import { PortableText } from 'next-sanity'
 
 const BlogRenderModule = (props: any) => {
 
@@ -13,9 +12,9 @@ const BlogRenderModule = (props: any) => {
   return (       
 
     <>
-        { (props.pageData.acf.desktop_featured_image) && 
+        { (props.pageData.full_image) && 
             <Image 
-            src={props.pageData.acf.desktop_featured_image} 
+            src={urlFor(props.pageData.full_image).url()}
             width="1920" 
             height="1080" 
             alt="featured image"
@@ -24,10 +23,11 @@ const BlogRenderModule = (props: any) => {
         }
         <div className="max-w-[800px] m-auto px-4">
 
-        <div className="text-[#2F6BEB] text-3xl md:text-4xl text-left font-bold py-[80px]">{props.pageData.title.rendered}</div>
-        <div className="postContParaFixCstm text-left" dangerouslySetInnerHTML={{__html: props.pageData.content.rendered}}/>
-
- 
+        <div className="text-3xl md:text-4xl text-left font-bold py-[80px]">{props.pageData.title}</div>
+        <p className="postContParaFixCstm text-left"></p>
+        <div className="prose prose-md text-justify">
+        <PortableText value={props.pageData.details}/>
+        </div>
     </div>
 
     </>

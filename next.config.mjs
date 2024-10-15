@@ -7,15 +7,13 @@ const nextConfig = {
           remotePatterns: [
             {
               protocol: 'https',
-              hostname: 'images.pexels.com'
+              hostname: 'images.pexels.com',
+              port: '',
             },
             {
               protocol: 'https',
-              hostname: 'geranosgetaways.com'
-            },
-            {
-              protocol: 'https',
-              hostname: 'dashboard.geranosgetaways.com'
+              hostname: 'cdn.sanity.io',
+              port: '',
             },
           ],
   

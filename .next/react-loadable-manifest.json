@@ -1,1 +1,8 @@
-{}
+{
+  "../node_modules/next-sanity/dist/visual-editing/client-component.js -> ../_chunks-es/VisualEditing.js": {
+    "id": "../node_modules/next-sanity/dist/visual-editing/client-component.js -> ../_chunks-es/VisualEditing.js",
+    "files": [
+      "static/chunks/_app-pages-browser_node_modules_next-sanity_dist__chunks-es_VisualEditing_js.js"
+    ]
+  }
+}

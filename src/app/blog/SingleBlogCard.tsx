@@ -25,7 +25,9 @@ const SingleBlogCard = ({title, date, excerpt, slug, image}:any) => {
         </div>
 
         <div className="flex flex-col order-[-1] md:order-1 gap-4 align-middle justify-center md:min-w-[280px] xl:min-w-[320px]">
-          <Image src={image} width="400" height="400" alt="blog thumbnail" className="m-auto rounded-xl mx-h-[200px] sm:max-h-full"/>
+          <Link href={`/blog/${slug}`}>
+          <Image src={image} width="400" height="400" alt="blog thumbnail" className="m-auto rounded-md mx-h-[200px] sm:max-h-full"/>
+          </Link>
         </div>
 
     </div>

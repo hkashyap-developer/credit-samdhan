@@ -3,13 +3,36 @@ import BlogRenderModule from './BlogRenderModule'
 import { Button } from '@/components/ui/button';
 import NotFound from '@/components/custom/Global/PageNotFound'
 
+
+import { singleBlogPost } from '@/app/lib/interface'
+
+import { client } from '@/app/lib/sanity'
+
+
 export const revalidate = 10;
+
+async function getBlog(slug:any) {
+  const query=`
+*[_type == 'blogs' && slug.current  == '${slug}'] {
+  full_image,
+  title,
+  "slug": slug.current, 
+  publishedAt,
+  details,
+}[0]`;
+
+  const blog = await client.fetch(query); 
+  return blog; 
+}
+
 
 const Page = async({ params }:any) => {
 
-    const req = await fetch(`https://dashboard.geranosgetaways.com/wp-json/wp/v2/posts?acf_format=standard&_fields=id,slug,title,content,acf&slug=${params.slug}`); 
-    const blogs = await req.json(); 
-    const blog = blogs[0];
+  const blog: singleBlogPost = await getBlog(params.slug); 
+  console.log(blog); 
+
+
+
 
     if(blog != undefined){
       return <BlogRenderModule pageData={blog}/> 
@@ -21,3 +44,11 @@ const Page = async({ params }:any) => {
 }
 
 export default Page
+
+
+
+/*
+
+
+
+*/

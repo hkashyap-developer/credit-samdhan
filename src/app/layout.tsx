@@ -88,7 +88,15 @@ export default function RootLayout({
 }>) {
   return (
 
-    <ClerkProvider>
+    <ClerkProvider
+    
+    appearance={{
+      layout: {
+        unsafe_disableDevelopmentModeWarnings: true,
+      },
+    }}
+    
+    >
     <html lang="en" className={`max-w-[1920px] mx-auto w-full ${myFont.variable} ${dancingScript.variable} ${SedgwickAve.variable} ${BethEllen.variable} ${EduVICWANTBeginner.variable} ${UrbanistLight.variable} scroll-smooth`}>
 
       <body className={inter.className}>
