@@ -2295,6 +2295,10 @@ video {
   padding-top: 80px;
   padding-bottom: 80px;
 }
+.py-\[40px\] {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
 .pb-0 {
   padding-bottom: 0px;
 }
@@ -4320,6 +4324,11 @@ img[btnvisibility="hidden"] {
   .md\:px-\[64px\] {
     padding-left: 64px;
     padding-right: 64px;
+  }
+
+  .md\:py-\[80px\] {
+    padding-top: 80px;
+    padding-bottom: 80px;
   }
 
   .md\:pb-4 {

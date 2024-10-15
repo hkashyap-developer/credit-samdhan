@@ -23,7 +23,7 @@ const BlogRenderModule = (props: any) => {
         }
         <div className="max-w-[800px] m-auto px-4">
 
-        <div className="text-3xl md:text-4xl text-left font-bold py-[80px]">{props.pageData.title}</div>
+        <div className="text-3xl md:text-4xl text-left font-bold py-[40px] md:py-[80px]">{props.pageData.title}</div>
         <p className="postContParaFixCstm text-left"></p>
         <div className="prose prose-md text-justify">
         <PortableText value={props.pageData.details}/>
